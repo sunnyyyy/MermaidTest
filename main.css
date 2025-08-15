@@ -1,5 +1,9 @@
 @font-face {
     font-family: "Space-Notorious-rounded";
-    src: url("") format("otf"),
-            url("") format("woff");
+    src: url("Space-Notorious-rounded.otf") format("otf"),
+            url("https://github.com/sunnyyyy/MermaidTest/blob/main/Space-Notorious-rounded.otf") format("woff");
   }
+
+body{
+    font-family: 'Space-Notorious-rounded',sans-serif;
+}
