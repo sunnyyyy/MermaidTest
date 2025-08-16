@@ -1,5 +1,16 @@
-      %%{init: { 'fontFamily': 'Space-Notorious-rounded', 'fontSize': '16px' } }%%
-
+      %%{init: { 'fontFamily': 'Space-Notorious-rounded', 'fontSize': '32px' } }%%
+      %%{init: {
+      "flowchart": {"nodeSpacing": 200, "rankSpacing": 300, "useMaxWidth": "true", "htmlLabels": "true", "curve": 'cardinal'},
+      "securityLevel": "loose",
+      "themeVariables": { 'primaryColor': '#BB2528',
+                          'primaryTextColor': '#fff',
+                          'primaryBorderColor': '#7C0000',
+                          'lineColor': '#F8B229',
+                          'secondaryColor': '#006100'},
+  "theme": "base",
+    "themeCSS": ".extension;.divider { display: none; };"
+    
+}}%%
 erDiagram
     CUSTOMER ||--o{ ORDER : places
     ORDER ||--|{ ORDER_ITEM : contains
